@@ -1,0 +1,42 @@
+backgrounds: 
+
+White = #f9f9f9
+Light Blue = #7fc8f8
+Purple = #5d576b
+
+=====================
+
+texts:
+
+Dark Purple : #524d5e (sur fond blanc)
+Purple : #5d576b (sur fond bleu)
+Lite Blue : #7fc8f8 (sur fond purple)
+Lite Grey : #dad8d8 rgba(218, 216, 216, 1) (sur fond purple)
+Pink : #ff6392  rgba(255, 99, 146, 1)
+Orange : #f3752b
+White : #f9f9f9
+
+=====================
+
+font:
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+font-family: 'Poppins', sans-serif;
+
+
+<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+
+font-family: 'Syncopate', sans-serif;
+
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+
+font-family: 'Inconsolata', monospace;
+
+<link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+
+font-family: 'Allison', cursive;
+
+
+=====================

@@ -1,0 +1,559 @@
+/* GENERAL */ 
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #fff;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -0.02rem;
+    font-size: 1rem; 
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.wrapper
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.pink_button
+{
+    font-weight: 700;
+    color: #e6007a;
+    padding: 18px 20px;
+    border: #e6007a solid 1px;
+    border-radius: 2rem;
+}
+
+.pink_button:hover
+{
+    color: #fff;
+    background: #e6007a;
+}
+
+ul
+{
+    list-style: none;
+}
+
+
+
+h1
+{
+    line-height: 1.2;
+    font-size: 2.5rem;
+}
+
+h2
+{
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+h5
+{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: inherit;
+    line-height: 1;
+}
+
+h6
+{
+    font-size: 1.25rem;
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
+#btn-back
+{
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    padding: 1rem 2rem;
+    background: #5d576b;
+    border-radius: 2rem;
+    position:fixed;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 10%;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.23);
+    z-index: 1;
+}
+
+#btn-back:hover
+{
+    background: #ff6392;
+}
+
+#retour
+{
+    padding-top: 5rem;
+}
+
+/* HEADER */ 
+
+    /* PART 1 */
+
+    header a
+    {
+        color: black
+    }
+
+    #part_1
+    {
+        border-bottom: solid 1px rgb(207, 207, 207);
+        margin-top: 5px;
+        height: 45px;
+        opacity: 0.5;
+        padding-bottom: 10px;
+    }
+
+
+    #part_1:hover
+    {
+        opacity: 1;
+    }
+
+
+    #language
+    {
+        list-style: none;
+        border-style: none;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-top: 3px;
+        float: left;
+        color: black
+    }
+
+    #link_top_right
+    {
+        float: right;
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    #link_top_right img
+    {
+        width: 27px;
+        height: 27px;
+    }
+
+    .icon-top-rgt
+    {
+        padding: 5px 5px;
+    }
+
+    .button_li_whi_wi
+    {
+        padding-left: 7px;
+        margin-left: 10px;
+    }
+
+    #button_support
+    {
+        margin-right: 40px;
+        margin-bottom: 5px;
+        border: solid black 1px;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+
+    /* PART 2 */
+
+    #part_2
+    {
+        height: 75px;
+    }
+
+    #part_2 img
+    {
+        height: 50px;
+        width: 147px;
+        float: left;
+        padding: 9px 20px;
+    }
+
+    #nav_menu
+    {
+        float: right;
+        font-size: 19px;
+        margin: 28px 20px;
+        color: #1e1e1e;
+    }
+
+    #nav_menu a
+    {
+        padding: 0 15px;
+    }
+
+
+/* MAIN PICTURE */ 
+
+    #main_picture
+    {
+
+        text-align: center;
+        height: 608px;
+    }
+
+    #picture
+    {
+        background: url(Pictures/Main_Picture/Polkadot_Live_Cover.png) center no-repeat;
+        width: 500px;
+        margin: 0 auto;
+        padding-top: 350px;
+    }
+
+    #main_picture p
+    {
+        font-size: 1.25rem;
+        line-height: 1.2;
+        color: #1e1e1e;
+        margin-bottom:60px;
+    }
+
+
+
+/* TECHNOLOGY */ 
+
+    #technology img
+    {
+        width: auto;
+        height: 3rem;
+    }
+
+    #line_1 li  , #line_2 li
+    {
+        width: 370px;
+        float: left;
+        margin-bottom: 40px;
+        margin-left:  8px;
+        margin-right: 8px;
+    }
+
+
+    #technology h5
+    {
+        padding: 10px 0;
+    }
+
+    #technology h2
+    {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #technology p
+    {
+        margin-top: 10px;
+    }
+
+    #lien
+    {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+
+/* DOT NETWORK */ 
+
+    #dot_network
+    {
+        background: #172026 ;
+        color: #fff;
+        border: solid #172026 1px;
+    }
+
+    #dot_network img
+    {
+        width: 220px;
+        height: 220px;
+    }
+
+    #dot_network h1 , #dot_network p , #dot_network h2
+    {
+        text-align: center;
+    }
+
+    #dot_network h1
+    {
+        padding-top: 100px;
+    }
+
+    #network_text_1
+    {
+        margin-top: 2.25rem;
+        font-size: 1.25rem;
+    }
+
+    #dot_network ul
+    {
+        margin-top: 100px;
+        text-align: center;
+
+    }
+
+    #dot_network ul li
+    {
+        width: 300px;
+        float: left;
+        margin: 0 40px;
+    }
+
+    #dot_network ul li h5
+    {
+        margin: 20px 0;
+    }
+
+    #dot_network h2
+    {
+        margin-top: 100px
+    }
+
+    #dot_network .blue_button
+    {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .blue_button a
+    {
+        font-weight: 700;
+        color: #fff;
+        padding: 18px 20px;
+        border: #e6007a solid 1px;
+        border-radius: 2rem;
+    }
+
+    .blue_button a:hover
+    {
+        background: #e6007a;
+    }
+
+/* OPEN SOURCE */ 
+
+    #open_source
+    {
+        background: linear-gradient(to bottom right, #e6007a, #a31f9b);
+       
+    }
+
+    #open_source img
+    {
+        width: 75px;
+        height: 75px;
+    }
+
+    .op_1 
+    {
+        width: 540px;
+        float: left;
+        margin-top: 80px;
+        margin-left: 40px;
+        color: #fff;
+    }
+
+    .op_1 h1
+    {
+        font-weight: bold;
+    }
+
+    .op_1 p
+    {
+        font-size: 1.25rem;
+    }
+
+    .op-2
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 80px 0;    
+    }
+/* TEAM */ 
+
+    #team
+    {
+        background: url(Pictures/Team/web3-summit-3.jpg) center no-repeat;
+        background-size: cover;
+        width: auto;
+        height: 500px;
+    }
+
+    #team h1
+    {
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0px 30px;
+        padding-top:130px;
+    }
+
+    #team .blue_button
+    {
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    
+
+/* BLOG */ 
+
+
+    .card
+    {
+        width: 350px;
+        height: 700px;
+        float: left;
+        margin: 100px 20px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 6px rgb(209, 208, 208);
+        position: relative;
+    }
+
+    .pic_articles
+    {
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .pink_link , .title_article , .card p , .card div , .card h6
+    {
+        margin: 10px 20px;
+    }
+
+    .pink_link
+    {
+        color: #e6007a;
+    }
+
+    .signature img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .signature
+    {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        align-items: center;
+        border-top: #dddddd solid 1px;
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    #blog h1
+    {
+        text-align: center;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+
+    #lien_rose 
+    {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #p_blog
+    {
+        text-align: center;
+        margin-top: 50px;
+        color: #1e1e1E;
+        margin-bottom: 150px;
+    }
+
+    #p_blog a
+    {
+        color: #1e1e1e;
+        border-bottom: #e6007a solid 1px;
+        padding-bottom: 5px;
+    }
+
+    
+/* FOOTER */ 
+
+    footer
+    {
+        background: #172026;
+        color: #fff;
+    }
+
+    footer a , footer p
+    {
+        color: #b7b8bb;
+    }
+
+    footer a:hover
+    {
+        color: #fff;
+    }
+
+    footer li
+    {
+        padding: 5px 0;
+    }
+
+    footer h3
+    {
+        margin-bottom: 10px;
+    }
+
+    #icon_footer img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card_footer
+    {
+        width: 280px;
+        float: left;
+        margin: 100px 0;
+    }
+
+    .card_footer p
+    {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    #bottom_footer 
+    {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 50px;
+    }
+
+    #bottom_footer p
+    {
+        margin-left: 50px;
+    }

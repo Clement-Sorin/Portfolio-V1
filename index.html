@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Clément Sorin</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    </head>
+
+<!-- ACCUEIL -->
+
+    <body>
+        <header>
+            <div class="main_page">
+                <div class="vid_container">
+                    <div class="color_overlay">
+                        <video id="vid" autoplay loop muted poster="Pictures/image_intro.png">
+                            <source src="Pictures/vid-main.webm" type="video/webm" >
+                        </video>
+                        <img id="img-mobile" src="Pictures/image_intro_mobile.png" alt="image intro for mobile portrait">
+                        <img id="img-intro" src="Pictures/image_intro.png" alt="image intro for mobile landscape">
+                    </div>
+                </div>
+                <div class="all_main">
+                    <div class="text_main">
+                        <h1>Clément Sorin</h1>
+                        <h3><span class="pink">Développeur Web</span></h3>
+                    </div>
+                    <div class="container-menu">
+                        <div class="menu_main">
+                            <ul>
+                                <li class="list_menu"><a href="#presentation">Présentation</a></li>
+                                <li class="list_menu"><a href="#profil">Profil Perso</a></li>
+                                <li class="list_menu"><a href="#tech">Technologies</a></li>
+                                <li class="list_menu"><a href="#book">Book</a></li>
+                                <li class="list_menu"><a href="#ndlr">Note</a></li>
+                                <li class="list_menu"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div> 
+        </header>
+
+<!-- PRESENTATION -->
+
+        <section id="presentation">
+            <div class="wrapper">
+                <div class="pres_block_para aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                    <img class="guillemet_up" src="Pictures/guillemets-up.png" alt="quotation up">
+                    <p id="text-pres" >Depuis tout jeune, j’ai eu une grande curiosité pour ce que les outils informatiques avaient à me proposer.<br> 
+                        Des logiciels de composition de musique, aux montage vidéos et traitements d’images, sans compter, bien entendu, le monde du jeu vidéo.<br><br> 
+                        J’ai donc décidé de comprendre un peu mieux et de mettre en pratique mon aisance avec l’outil en me lançant dans le monde du développement web.<br> 
+                        Pour moi le véritable pouvoir de l’informatique vient de l'étendue quasi illimité des possibilités qu'elle nous offre.<br> 
+                        Et quel plaisir à se plonger dedans !<br><br>
+                        Me voilà maintenant sur le chemin du développement, et plus spécifiquement, le <span class="pink">développement web</span>.<br> 
+                        En effet, ce domaine me permet de travailler dans cet environnement que j’apprécie tant.<br> 
+                        Mais surtout, de développer ma créativité à mon propre service et aux services des autres.<br><br> 
+                        Je suis sur la voie qui m’a toujours attiré, je suis développeur web.<br><br>
+                        <span class="signature"> Clément.</span>
+                    </p>
+                    <img id="guillemet_down" src="Pictures/guillemets-down.png" alt="quotation down">
+                </div>
+            </div>
+        </section>
+
+<!-- PROFIL PERSO-->
+
+        <section id="profil">
+            <div class="flex-profil">
+                <div class="profil-pt1">
+                    <div class="profil-pt1-tle"><p>Qui-Suis-Je?</p></div>
+                </div>
+                <div class="profil-pt2 " >
+                    <div id="picture_clement">
+                        <a target="_blank" href="Pictures/photo_clément.jpg"><img src="Pictures/photo_clément.jpg" alt="image"></a>
+                    </div>
+                    <div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Prénom/Nom :</h3>
+                            <p class="col-2">Clément Sorin</p>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Âge :</h3>
+                            <p class="col-2">35 ans</p>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Résidence :</h3>
+                            <p class="col-2">Reignier-Esery/Haute-Savoie</p>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Centres d'intérêt :</h3>
+                            <p class="col-2">Développement personnel, Esotérisme, Voyages, Créativité</p>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Carrière professionnelle :</h3>
+                            <p class="col-2" id="reconv" >15 ans dans la restauration, <span class="pink"> reconversion en développement web</span></p>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Pays ayant déjà résidé :</h3>
+                            <p class="col-2">France, Angleterre, Australie, Thaïlande</p>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Langues :</h3>
+                            <div class="col-2" id="lang">
+                                <div class="pt2-li-lg-chd">
+                                    <div><img class="flag" src="Pictures/french.png" alt="French flag"></div>
+                                    <p class="white" >Français (langue maternelle)</p> 
+                                </div>
+                                <div class="pt2-li-lg-chd">
+                                    <div><img class="flag" src="Pictures/english.png" alt="English flag"></div>
+                                    <p class="white" >Anglais (courant à l'oral et écrit)</p> 
+                                </div>
+                                <div class="pt2-li-lg-chd">
+                                    <div><img class="flag" src="Pictures/thai.png" alt="Thai flag"></div>
+                                    <p class="white" >Thaïlandais (intermédiaire à l'oral, débutant à l'écrit) </p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt2-li aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h3 class="col-1">Mon ancien parcours :</h3>
+                            <a id="link-cv" target="_blank" href="Other/CV Clément Sorin.pdf">
+                                <div class="div-cv your-element" data-tilt><img id="cv" src="Pictures/CV Clément Sorin.png" alt="C.V. link picture"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!--TECH-->
+        <section id="tech">
+            <div class="div-tech">
+<!-- TECH/ACQUIS-->
+                <div class="acquis">
+                    <h1>Acquis</h1>
+                    <div class="dev-web">
+                        <h3>Développement web :</h3>
+                        <div class="language">
+                            <img src="Pictures/icon-html.png" alt="icon html">
+                            <div class="bar">
+                                <div id="bar-html">
+                                    <p>HTML - 70%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <img src="Pictures/icon-css.png" alt="icon css">
+                            <div class="bar">
+                                <div id="bar-css">
+                                    <p>CSS - 70%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <img src="Pictures/icon-js.png" alt="icon java script">
+                            <div class="bar">
+                                <div id="bar-js">
+                                    <p>JavaScript</p><p class="wip" data-text="Work in Progress...">Work in Progress...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <img src="Pictures/icon-wordpress.png" alt="icon Wordpress">
+                            <div class="bar">
+                                <div id="bar-wp">
+                                    <p>Wordpress - 80%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="montage">
+                        <h3>Montage audio-visuel :</h3>
+                        <div class="language">
+                            <img src="Pictures/icon-gimp.png" alt="icon gimp">
+                            <div class="bar">
+                                <div id="bar-gimp">
+                                    <p>Gimp - 75%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <img src="Pictures/icon-hitfilm.png" alt="icon hitfilm">
+                            <div class="bar">
+                                <div id="bar-hitfilm">
+                                    <p>Hitfilm - 65%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <img src="Pictures/icon-fl.png" alt="icon FL studio">
+                            <div class="bar">
+                                <div id="bar-fl">
+                                    <p>FL Studio - 80%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- TECH/PLAN-->     
+
+                <div class="plan">
+                    <h1>En prévision</h1>
+                    <h3 class="plan-h3" >Développement web :</h3>
+                    <div class="icon-plan">
+                        <img src="Pictures/icon-php-mysql.png" alt="icon PHP & MySQL">
+                        <p>PHP - MySQL</p>
+                    </div>
+                    <h3 class="plan-h3">Autres secteurs :</h3>
+                    <div class="icon-plan">
+                        <img src="Pictures/icon-xamarin.png" alt="icon xamarin">
+                        <p>Xamarin</p>
+                    </div>
+                    <div class="icon-plan">
+                        <img src="Pictures/icon-python.png" alt="icon python">
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- BOOK -->
+
+        <section id="book">
+            <div class="back-book">
+                <div class="title-book">
+                    <h1 id="mon-book">Mon Book</h1> 
+                    <p class="p-book" >Vous trouverez ici les différentes réalisations que j'ai pu faire depuis le début de mon apprentissage :</p>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content-card"> 
+                                <span class="big-card">sorinweb.site</span>
+                                <p class="p-book">Ce site même, qui est la réalisation de mon premier projet de site web personnel développé en HTML/CSS/JS</p>
+                                <p class="status">Responsive: <span class="green">Desktop/tablet/mobile</span></p>
+                                <div class="book-link-pic"><a class="link-glass" href="index.html"><img src="Pictures/site-clement.png" alt="image site Clement Sorin"></a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card"> 
+                                <span class="big-card">Today's Market Cap</span>
+                                <p class="p-book">Boutique en ligne de vêtement dans le domaine de la crypto-monnaie sur Wordpress/WooCommerce</p>
+                                <p class="status">Responsive: <span class="green">Desktop/tablet/mobile</span></p>
+                                <div class="book-link-pic"><a class="link-glass" href="https://todaysmarketcap.com"><img src="Pictures/site-TMC.png" alt="image site todaysmarketcap"></a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card">   
+                                <span class="big-card">Travel Agency (exercice pratique)</span>
+                                <p class="p-book">Mise en page d'un site vitrine pour agence de tourisme développé en HTML/CSS</p>
+                                <p class="status">Responsive: <span class="orange">desktop version</span></p>
+                                <div class="book-link-pic"><a class="link-glass" href="Travel-Agency/index.html"><img src="Pictures/site-travel.png" alt="image site Travel Agency"></a></div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card"> 
+                                <span class="big-card">Polkadot (exercice pratique)</span>
+                                <p class="p-book">Clone de la page d'accueil du site Polkadot.network développé en HTML/CSS</p>
+                                <p class="status">Responsive: <span class="orange">desktop version</span></p>
+                                <div class="book-link-pic"><a class="link-glass" href="Polkadot/index.html"><img src="Pictures/site-polkadot.png" alt="image site Polkadot"></a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card"> 
+                                <span class="big-card">Tonton Diving Tour (Web Design)</span>
+                                <p class="p-book">Création d'un design pour la page d'accueil d'un site pour guide touristique avec Figma</p>
+                                <p class="status">Responsive: <span class="orange">desktop version</span></p>
+                                <div class="book-link-pic"><a class="link-glass" href="Pictures/Home TontonDivingTour.png"><img src="Pictures/Preview TontonDT.png" alt="prévisualisation Tonton Diving Tour"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+            </div>
+        </section>
+
+<!-- NDLR -->
+
+        <section id="ndlr">
+            <div class="flex-ndlr">
+                <h1 id="title-note">Note</h1>
+                <div class="pres_block_para aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                    <img class="guillemet_up" src="Pictures/guillemets-up.png" alt="quotation up">
+                    <p id="note">
+                        Comme vous avez pu le constater, ce site est une première version crée avec HTML/CSS et quelques scripts de JavaScript.<br><br>
+                        Ce travail a été fait de façon autodidacte et j’ai encore beaucoup de connaissance à acquérir.<br> Mais pour cela, je fois pouvoir continuer d'apprendre et si possible dans un contexte professionnelle.<br><br> 
+                        C’est la raison pour laquelle je compte sur vous aujourd’hui, recruteurs, pour pouvoir rendre mon rêve accessible.<br><br><br>
+                        Cordialement.
+                    </p>
+                    <img id="guillemet_down_note" src="Pictures/guillemets-down.png" alt="quotation down">
+                </div>
+            </div>
+        </section>
+
+<!-- FOOTER -->
+
+        <footer id="contact">
+            <div class="flex-footer">
+                <div class="logo-cs">
+                    <h2 id="title-foot">Clément Sorin</h2>
+                </div>
+                <div class="foot-pt2">
+                    <div class="foot-pt2-li">
+                        <p class="foot-column-1">Téléphone :</p>
+                        <a class="foot-column-2" href="tel:+33643804102">+33.643.80.41.02.</a>
+                    </div>
+                    <div class="foot-pt2-li">
+                        <p class="foot-column-1">Email :</p>
+                        <a class="foot-column-2" href="mailto:info@sorinweb.site?">info@sorinweb.site</a>
+                    </div>
+                    <div class="foot-pt2-li">
+                        <p class="foot-column-1">Messageries :</p>
+                        <div class="list-mess">
+                            <div class="foot-mess">
+                                <img src="Pictures/icon-whatsapp.png" alt="icon Whatsapp">
+                                <a href="https://api.whatsapp.com/send?phone=0033643804102" class="foot-column-2" id="messageries">Whatsapp (+33.643.80.41.02.)</a>
+                            </div>
+                            <div class="foot-mess">
+                                <img src="Pictures/icon-telegram.png" alt="icon telegram">
+                                <a href="https://t.me/Clement_sorin" class="foot-column-2">Telegram (+33.643.80.41.02.)</a>
+                            </div>
+                            <div class="foot-mess">
+                                <img src="Pictures/icon-signal.png" alt="icon signal">
+                                <a href="http://signal.me/#p/+33643804102" class="foot-column-2">Signal (+33.643.80.41.02.)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });    
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 5000,
+        });
+    </script>
+    <script src="vanilla-tilt.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ ...options });
+    </script>
+    </body>
+
+</html>
